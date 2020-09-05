@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import GifGridItem from './GifGridItem';
 import { useFetchGifs } from '../hooks/useFetchGifs';
 
-const GifGrid = ({ category }) => {
+export const GifGrid = ({ category }) => {
 
    // para renombrar en la desetructuracion name:newname
    const {data:images, loading} = useFetchGifs(category);
@@ -36,7 +36,6 @@ const GifGrid = ({ category }) => {
 }
 
 GifGrid.propTypes = {
-   category:PropTypes.string
+   category:PropTypes.string.isRequired
 }
 
-export default GifGrid
