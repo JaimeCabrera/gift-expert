@@ -10,7 +10,7 @@ exports[`Pruebas en el componente <GifGrid/> Debde de mostrar items cuando se ca
   <div
     className="card-grid"
   >
-    <GifGridItem
+    <Component
       id="1"
       key="1"
       title="titulo del gif"

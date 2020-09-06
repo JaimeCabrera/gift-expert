@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import AddCategory from './components/AddCategory';
-import GifGrid from './components/GifGrid';
+import { AddCategory } from './components/AddCategory';
+import { GifGrid } from './components/GifGrid';
 
-const GifExpertApp = () => {
+export const GifExpertApp = ({defaultCategory=[]}) => {
 
-   const [categories, setCategories] = useState(['simpson']);
+   const [categories, setCategories] = useState(defaultCategory);
 
    // const handleAdd = () => {
    //    // para añadir nuevos elementos al array usamos el op spreed [...ArrayAnterior,nuevo elemento]
@@ -16,7 +16,7 @@ const GifExpertApp = () => {
    return (
       <>
          <h2>Gif Expert App</h2>
-         <AddCategory setCategories={setCategories}/>
+         <AddCategory setCategories={setCategories} />
          <hr />
          {/* <button onClick={handleAdd}>Agregar</button> */}
          <ol>
@@ -33,4 +33,3 @@ const GifExpertApp = () => {
    )
 }
 
-export default GifExpertApp

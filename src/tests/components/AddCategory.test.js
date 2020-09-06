@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from "enzyme";
-import { default as AddCategory } from "../../components/AddCategory";
+import {  AddCategory } from "../../components/AddCategory";
 
 describe('Pruebas en el componente <AddCategory/>', () => {
    
