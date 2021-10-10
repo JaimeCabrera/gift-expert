@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/gift-expert/static/css/main.db933e7a.chunk.css",
+    "main.js": "/gift-expert/static/js/main.4445a19a.chunk.js",
+    "main.js.map": "/gift-expert/static/js/main.4445a19a.chunk.js.map",
+    "runtime-main.js": "/gift-expert/static/js/runtime-main.badb6182.js",
+    "runtime-main.js.map": "/gift-expert/static/js/runtime-main.badb6182.js.map",
+    "static/css/2.e2dd9b0a.chunk.css": "/gift-expert/static/css/2.e2dd9b0a.chunk.css",
+    "static/js/2.05c647ea.chunk.js": "/gift-expert/static/js/2.05c647ea.chunk.js",
+    "static/js/2.05c647ea.chunk.js.map": "/gift-expert/static/js/2.05c647ea.chunk.js.map",
+    "index.html": "/gift-expert/index.html",
+    "precache-manifest.a570a0c3f6c8ca85532a3e11575732da.js": "/gift-expert/precache-manifest.a570a0c3f6c8ca85532a3e11575732da.js",
+    "service-worker.js": "/gift-expert/service-worker.js",
+    "static/css/2.e2dd9b0a.chunk.css.map": "/gift-expert/static/css/2.e2dd9b0a.chunk.css.map",
+    "static/css/main.db933e7a.chunk.css.map": "/gift-expert/static/css/main.db933e7a.chunk.css.map",
+    "static/js/2.05c647ea.chunk.js.LICENSE.txt": "/gift-expert/static/js/2.05c647ea.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.badb6182.js",
+    "static/css/2.e2dd9b0a.chunk.css",
+    "static/js/2.05c647ea.chunk.js",
+    "static/css/main.db933e7a.chunk.css",
+    "static/js/main.4445a19a.chunk.js"
+  ]
+}
